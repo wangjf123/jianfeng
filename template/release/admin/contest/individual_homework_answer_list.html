@@ -1,0 +1,30 @@
+<div ms-controller="contestProblemList" class="col-md-9">
+    <nav>
+        <ul class="pager">
+            <li class="previous" ms-click="goBack4()"><a href="javascript:void(0)">
+                <span aria-hidden="true">&larr;</span> 返回</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>作业题目列表</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>题目</th>
+            <th>创建时间</th>
+            <th>结果</th>
+            <td></td>
+        </tr>
+        <tr ms-repeat="problemList">
+            <td>{{ el.sort_index }}</td>
+            <td>{{ el.title }}</td>
+            <td>{{ el.create_time|date("yyyy-MM-dd HH:mm:ss")}}</td>
+            <td>{{}}</td>
+            <td>
+                <button class="btn-sm btn-info" ms-click="showSubmitCode(el.id)">源码</button>
+                
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="/static/js/app/admin/contest/contestProblemList.js?v=a40311"></script>

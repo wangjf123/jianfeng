@@ -1,0 +1,22 @@
+2017-10-03 05:08:47,360 [Thread-1:140509324719872] [root:24] [runner:run] [INFO]- Invalid token: 123456
+2017-10-06 05:26:06,607 [Thread-1:140045738542848] [root:30] [compiler:compile_] [ERROR]- Compiler error
+2017-10-06 05:26:06,667 [Thread-1:140045738542848] [root:31] [compiler:compile_] [ERROR]- /var/judger/run/a76433a5ded56637377e007408c80444/main.c:1:1: error: expected identifier or '(' before numeric constant
+ 123321
+ ^
+2017-10-06 05:26:06,698 [Thread-1:140045738542848] [root:32] [compiler:compile_] [ERROR]- {'cpu_time': 100, 'exit_status': 1, 'signal': 0, 'flag': 4, 'memory': 11743232, 'real_time': 929}
+2017-10-06 05:26:50,299 [Thread-2:140045738542848] [root:30] [compiler:compile_] [ERROR]- Compiler error
+2017-10-06 05:26:50,300 [Thread-2:140045738542848] [root:31] [compiler:compile_] [ERROR]- /var/judger/run/523deee1f13f9ef1ebe32d07416becde/main.c:1:1: error: expected identifier or '(' before numeric constant
+ 123321
+ ^
+2017-10-06 05:26:50,300 [Thread-2:140045738542848] [root:32] [compiler:compile_] [ERROR]- {'cpu_time': 20, 'exit_status': 1, 'signal': 0, 'flag': 4, 'memory': 11833344, 'real_time': 32}
+2017-10-06 05:28:56,897 [Thread-3:140045738542848] [root:30] [compiler:compile_] [ERROR]- Compiler error
+2017-10-06 05:28:56,897 [Thread-3:140045738542848] [root:31] [compiler:compile_] [ERROR]- /var/judger/run/0a7c7e9017476b48541bc15d3a5f64ae/main.cpp:1:83: fatal error: iostream>usin: No such file or directory
+compilation terminated.
+2017-10-06 05:28:56,897 [Thread-3:140045738542848] [root:32] [compiler:compile_] [ERROR]- {'cpu_time': 84, 'exit_status': 1, 'signal': 0, 'flag': 4, 'memory': 12902400, 'real_time': 675}
+2017-10-12 05:42:25,452 [Thread-1:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 05:46:42,797 [Thread-2:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 05:51:24,256 [Thread-3:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 05:51:46,193 [Thread-4:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 05:57:38,176 [Thread-5:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 05:58:51,830 [Thread-6:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}
+2017-10-12 06:00:13,191 [Thread-7:140170160084736] [root:24] [runner:run] [INFO]- Invalid token: {123456}

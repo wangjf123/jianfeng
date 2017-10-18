@@ -1,0 +1,72 @@
+2017-10-03 01:43:58,055 CRIT Supervisor running as root (no user in config file)
+2017-10-03 01:43:58,110 INFO supervisord started with pid 5
+2017-10-03 01:43:59,117 INFO spawned: 'judger_server' with pid 9
+2017-10-03 01:44:04,185 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:15:53,536 CRIT Supervisor running as root (no user in config file)
+2017-10-03 02:15:53,731 INFO supervisord started with pid 5
+2017-10-03 02:15:54,748 INFO spawned: 'judger_server' with pid 9
+2017-10-03 02:15:59,779 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:37:19,203 CRIT Supervisor running as root (no user in config file)
+2017-10-03 02:37:19,353 INFO supervisord started with pid 5
+2017-10-03 02:37:20,371 INFO spawned: 'judger_server' with pid 9
+2017-10-03 02:37:25,419 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 03:02:40,619 INFO exited: judger_server (terminated by SIGTERM; not expected)
+2017-10-03 03:02:40,862 WARN received SIGTERM indicating exit request
+2017-10-03 03:03:53,799 CRIT Supervisor running as root (no user in config file)
+2017-10-03 03:03:53,865 INFO supervisord started with pid 5
+2017-10-03 03:03:54,869 INFO spawned: 'judger_server' with pid 9
+2017-10-03 03:03:59,886 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 04:02:17,780 INFO exited: judger_server (terminated by SIGTERM; not expected)
+2017-10-03 04:02:17,809 WARN received SIGTERM indicating exit request
+2017-10-03 04:44:57,553 CRIT Supervisor running as root (no user in config file)
+2017-10-03 04:44:57,697 INFO supervisord started with pid 5
+2017-10-03 04:44:58,716 INFO spawned: 'judger_server' with pid 9
+2017-10-03 04:45:03,735 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 09:47:58,662 CRIT Supervisor running as root (no user in config file)
+2017-10-03 09:47:58,719 INFO supervisord started with pid 5
+2017-10-03 09:47:59,749 INFO spawned: 'judger_server' with pid 9
+2017-10-03 09:48:04,760 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 10:16:31,011 CRIT Supervisor running as root (no user in config file)
+2017-10-03 10:16:31,142 INFO supervisord started with pid 5
+2017-10-03 10:16:32,146 INFO spawned: 'judger_server' with pid 9
+2017-10-03 10:16:37,178 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 13:02:52,441 CRIT Supervisor running as root (no user in config file)
+2017-10-10 13:02:52,602 INFO supervisord started with pid 5
+2017-10-10 13:02:53,742 INFO spawned: 'judger_server' with pid 9
+2017-10-10 13:02:58,737 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:22:21,342 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:22:21,381 INFO supervisord started with pid 5
+2017-10-10 14:22:22,409 INFO spawned: 'judger_server' with pid 9
+2017-10-10 14:22:27,419 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:33:11,344 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:33:11,605 INFO supervisord started with pid 5
+2017-10-10 14:33:12,607 INFO spawned: 'judger_server' with pid 9
+2017-10-10 14:33:17,614 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:37:13,175 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:37:13,193 INFO supervisord started with pid 5
+2017-10-10 14:37:14,195 INFO spawned: 'judger_server' with pid 9
+2017-10-10 14:37:19,204 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:53:00,784 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:53:00,785 INFO supervisord started with pid 5
+2017-10-10 14:53:01,787 INFO spawned: 'judger_server' with pid 9
+2017-10-10 14:53:06,794 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 02:53:50,543 CRIT Supervisor running as root (no user in config file)
+2017-10-11 02:53:51,467 INFO supervisord started with pid 5
+2017-10-11 02:53:52,471 INFO spawned: 'judger_server' with pid 9
+2017-10-11 02:53:57,487 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 05:09:22,394 CRIT Supervisor running as root (no user in config file)
+2017-10-11 05:09:22,573 INFO supervisord started with pid 5
+2017-10-11 05:09:23,576 INFO spawned: 'judger_server' with pid 9
+2017-10-11 05:09:28,594 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 01:34:12,651 CRIT Supervisor running as root (no user in config file)
+2017-10-12 01:34:12,697 INFO supervisord started with pid 5
+2017-10-12 01:34:13,702 INFO spawned: 'judger_server' with pid 9
+2017-10-12 01:34:18,720 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:11:57,144 CRIT Supervisor running as root (no user in config file)
+2017-10-12 02:11:57,389 INFO supervisord started with pid 5
+2017-10-12 02:11:58,393 INFO spawned: 'judger_server' with pid 9
+2017-10-12 02:12:03,410 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:15:04,961 CRIT Supervisor running as root (no user in config file)
+2017-10-12 02:15:04,965 INFO supervisord started with pid 5
+2017-10-12 02:15:05,969 INFO spawned: 'judger_server' with pid 9
+2017-10-12 02:15:10,985 INFO success: judger_server entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)

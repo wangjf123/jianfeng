@@ -1,0 +1,1 @@
+2017/10/12 07:58:23 [error] 33#33: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: _, request: "GET /admin/ HTTP/1.1", upstream: "http://127.0.0.1:8080/admin/", host: "127.0.0.1:8080"

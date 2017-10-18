@@ -1,0 +1,223 @@
+[2017-10-03 02:14:05,950: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+[2017-10-03 02:14:06,473: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2017-10-03 02:35:38,178: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+[2017-10-03 02:35:38,335: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2017-10-03 03:02:27,842: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@352843f13855 v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-35-generic-x86_64-with-Ubuntu-16.04-xenial 2017-10-03 02:37:48
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         oj:0x7f7e56b33990
+- ** ---------- .> transport:   redis://oj_redis:6379/2
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+
+worker: Warm shutdown (MainProcess)
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@352843f13855 v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-35-generic-x86_64-with-Ubuntu-16.04-xenial 2017-10-03 03:04:11
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         oj:0x7f2511ff5990
+- ** ---------- .> transport:   redis://oj_redis:6379/2
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[2017-10-03 10:15:04,059: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+[2017-10-03 10:15:04,768: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2017-10-03 10:15:06,775: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 4.00 seconds...
+
+[2017-10-10 14:36:59,352: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+[2017-10-10 14:36:59,486: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2017-10-10 14:52:44,601: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 320, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/celery/bootsteps.py", line 119, in start
+    step.start(parent)
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/consumer/consumer.py", line 596, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python2.7/dist-packages/celery/worker/loops.py", line 88, in asynloop
+    next(loop)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/async/hub.py", line 354, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 1040, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 337, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 667, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python2.7/dist-packages/kombu/transport/redis.py", line 678, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2430, in parse_response
+    return self._execute(connection, connection.read_response)
+  File "/usr/local/lib/python2.7/dist-packages/redis/client.py", line 2415, in _execute
+    connection.connect()
+  File "/usr/local/lib/python2.7/dist-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 111 connecting to oj_redis:6379. Connection refused.
+[2017-10-10 14:52:44,624: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 2.00 seconds...
+
+[2017-10-10 14:52:49,469: ERROR/MainProcess] consumer: Cannot connect to redis://oj_redis:6379/2: Error 111 connecting to oj_redis:6379. Connection refused..
+Trying again in 4.00 seconds...
+

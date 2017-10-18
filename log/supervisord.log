@@ -1,0 +1,162 @@
+2017-10-03 01:44:28,916 CRIT Supervisor running as root (no user in config file)
+2017-10-03 01:44:28,930 INFO supervisord started with pid 5
+2017-10-03 01:44:29,936 INFO spawned: 'nginx' with pid 39
+2017-10-03 01:44:29,948 INFO spawned: 'gunicorn' with pid 40
+2017-10-03 01:44:29,968 INFO spawned: 'task_queue' with pid 41
+2017-10-03 01:44:35,414 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 01:44:35,414 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 01:44:35,414 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:16:09,240 CRIT Supervisor running as root (no user in config file)
+2017-10-03 02:16:09,255 INFO supervisord started with pid 5
+2017-10-03 02:16:10,261 INFO spawned: 'nginx' with pid 28
+2017-10-03 02:16:10,276 INFO spawned: 'gunicorn' with pid 29
+2017-10-03 02:16:10,282 INFO spawned: 'task_queue' with pid 30
+2017-10-03 02:16:15,842 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:16:15,844 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:16:15,844 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:37:43,105 CRIT Supervisor running as root (no user in config file)
+2017-10-03 02:37:43,135 INFO supervisord started with pid 5
+2017-10-03 02:37:44,141 INFO spawned: 'nginx' with pid 28
+2017-10-03 02:37:44,153 INFO spawned: 'gunicorn' with pid 29
+2017-10-03 02:37:44,161 INFO spawned: 'task_queue' with pid 30
+2017-10-03 02:37:49,602 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:37:49,602 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 02:37:49,602 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 03:02:39,762 WARN received SIGTERM indicating exit request
+2017-10-03 03:02:39,942 INFO waiting for nginx, gunicorn, task_queue to die
+2017-10-03 03:02:41,118 INFO exited: gunicorn (exit status 0; expected)
+2017-10-03 03:02:41,435 INFO stopped: task_queue (exit status 0)
+2017-10-03 03:02:41,610 INFO stopped: nginx (exit status 0)
+2017-10-03 03:04:08,057 CRIT Supervisor running as root (no user in config file)
+2017-10-03 03:04:08,082 INFO supervisord started with pid 5
+2017-10-03 03:04:09,084 INFO spawned: 'nginx' with pid 28
+2017-10-03 03:04:09,086 INFO spawned: 'gunicorn' with pid 29
+2017-10-03 03:04:09,087 INFO spawned: 'task_queue' with pid 30
+2017-10-03 03:04:14,800 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 03:04:14,800 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 03:04:14,801 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 04:02:17,706 WARN received SIGTERM indicating exit request
+2017-10-03 04:02:17,880 INFO waiting for nginx, gunicorn, task_queue to die
+2017-10-03 04:02:18,175 INFO exited: gunicorn (exit status 0; expected)
+2017-10-03 04:02:18,939 INFO stopped: task_queue (exit status 0)
+2017-10-03 04:02:19,098 INFO stopped: nginx (exit status 0)
+2017-10-03 04:45:44,050 CRIT Supervisor running as root (no user in config file)
+2017-10-03 04:45:44,188 INFO supervisord started with pid 5
+2017-10-03 04:45:45,190 INFO spawned: 'nginx' with pid 30
+2017-10-03 04:45:45,210 INFO spawned: 'gunicorn' with pid 31
+2017-10-03 04:45:45,214 INFO spawned: 'task_queue' with pid 32
+2017-10-03 04:45:50,774 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 04:45:50,774 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 04:45:50,774 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 09:48:17,617 CRIT Supervisor running as root (no user in config file)
+2017-10-03 09:48:17,757 INFO supervisord started with pid 5
+2017-10-03 09:48:18,760 INFO spawned: 'nginx' with pid 28
+2017-10-03 09:48:18,762 INFO spawned: 'gunicorn' with pid 29
+2017-10-03 09:48:18,770 INFO spawned: 'task_queue' with pid 30
+2017-10-03 09:48:24,543 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 09:48:24,543 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 09:48:24,543 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 10:16:57,424 CRIT Supervisor running as root (no user in config file)
+2017-10-03 10:16:57,463 INFO supervisord started with pid 5
+2017-10-03 10:16:58,476 INFO spawned: 'nginx' with pid 28
+2017-10-03 10:16:58,484 INFO spawned: 'gunicorn' with pid 29
+2017-10-03 10:16:58,488 INFO spawned: 'task_queue' with pid 30
+2017-10-03 10:17:04,322 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 10:17:04,322 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-03 10:17:04,323 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 13:03:11,403 CRIT Supervisor running as root (no user in config file)
+2017-10-10 13:03:11,418 INFO supervisord started with pid 5
+2017-10-10 13:03:12,423 INFO spawned: 'nginx' with pid 28
+2017-10-10 13:03:12,443 INFO spawned: 'gunicorn' with pid 29
+2017-10-10 13:03:12,456 INFO spawned: 'task_queue' with pid 30
+2017-10-10 13:03:18,210 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 13:03:18,211 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 13:03:18,211 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:22:31,245 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:22:31,279 INFO supervisord started with pid 5
+2017-10-10 14:22:32,282 INFO spawned: 'nginx' with pid 26
+2017-10-10 14:22:32,283 INFO spawned: 'gunicorn' with pid 27
+2017-10-10 14:22:32,285 INFO spawned: 'task_queue' with pid 28
+2017-10-10 14:22:38,033 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:22:38,034 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:22:38,034 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:33:47,445 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:33:47,482 INFO supervisord started with pid 5
+2017-10-10 14:33:48,485 INFO spawned: 'nginx' with pid 30
+2017-10-10 14:33:48,509 INFO spawned: 'gunicorn' with pid 31
+2017-10-10 14:33:48,527 INFO spawned: 'task_queue' with pid 32
+2017-10-10 14:33:53,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:33:53,805 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:33:53,805 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:37:24,207 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:37:24,208 INFO supervisord started with pid 5
+2017-10-10 14:37:25,214 INFO spawned: 'nginx' with pid 28
+2017-10-10 14:37:25,221 INFO spawned: 'gunicorn' with pid 29
+2017-10-10 14:37:25,229 INFO spawned: 'task_queue' with pid 30
+2017-10-10 14:37:30,548 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:37:30,548 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:37:30,549 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:53:03,703 CRIT Supervisor running as root (no user in config file)
+2017-10-10 14:53:03,705 INFO supervisord started with pid 5
+2017-10-10 14:53:04,708 INFO spawned: 'nginx' with pid 26
+2017-10-10 14:53:04,711 INFO spawned: 'gunicorn' with pid 27
+2017-10-10 14:53:04,721 INFO spawned: 'task_queue' with pid 28
+2017-10-10 14:53:09,995 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:53:09,995 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-10 14:53:09,996 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 02:54:20,277 CRIT Supervisor running as root (no user in config file)
+2017-10-11 02:54:20,379 INFO supervisord started with pid 5
+2017-10-11 02:54:21,380 INFO spawned: 'nginx' with pid 30
+2017-10-11 02:54:21,383 INFO spawned: 'gunicorn' with pid 31
+2017-10-11 02:54:21,391 INFO spawned: 'task_queue' with pid 32
+2017-10-11 02:54:26,857 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 02:54:26,857 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 02:54:26,857 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 05:09:30,933 CRIT Supervisor running as root (no user in config file)
+2017-10-11 05:09:31,032 INFO supervisord started with pid 5
+2017-10-11 05:09:32,036 INFO spawned: 'nginx' with pid 28
+2017-10-11 05:09:32,038 INFO spawned: 'gunicorn' with pid 29
+2017-10-11 05:09:32,043 INFO spawned: 'task_queue' with pid 30
+2017-10-11 05:09:37,819 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 05:09:37,829 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-11 05:09:37,829 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 01:36:53,071 CRIT Supervisor running as root (no user in config file)
+2017-10-12 01:36:53,117 INFO supervisord started with pid 5
+2017-10-12 01:36:54,123 INFO spawned: 'nginx' with pid 31
+2017-10-12 01:36:54,137 INFO spawned: 'gunicorn' with pid 32
+2017-10-12 01:36:54,154 INFO spawned: 'task_queue' with pid 33
+2017-10-12 01:36:59,941 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 01:36:59,983 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 01:36:59,984 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:12:15,894 CRIT Supervisor running as root (no user in config file)
+2017-10-12 02:12:15,947 INFO supervisord started with pid 5
+2017-10-12 02:12:16,953 INFO spawned: 'nginx' with pid 28
+2017-10-12 02:12:16,978 INFO spawned: 'gunicorn' with pid 29
+2017-10-12 02:12:16,991 INFO spawned: 'task_queue' with pid 30
+2017-10-12 02:12:22,837 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:12:22,850 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:12:22,850 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:15:10,574 CRIT Supervisor running as root (no user in config file)
+2017-10-12 02:15:10,589 INFO supervisord started with pid 5
+2017-10-12 02:15:11,595 INFO spawned: 'nginx' with pid 31
+2017-10-12 02:15:11,606 INFO spawned: 'gunicorn' with pid 32
+2017-10-12 02:15:11,624 INFO spawned: 'task_queue' with pid 33
+2017-10-12 02:15:17,165 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:15:17,165 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 02:15:17,165 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 05:41:45,740 CRIT Supervisor running as root (no user in config file)
+2017-10-12 05:41:45,788 INFO supervisord started with pid 5
+2017-10-12 05:41:46,790 INFO spawned: 'nginx' with pid 26
+2017-10-12 05:41:46,794 INFO spawned: 'gunicorn' with pid 27
+2017-10-12 05:41:46,799 INFO spawned: 'task_queue' with pid 28
+2017-10-12 05:41:52,655 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 05:41:52,680 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 05:41:52,680 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 07:58:21,430 CRIT Supervisor running as root (no user in config file)
+2017-10-12 07:58:21,461 INFO supervisord started with pid 5
+2017-10-12 07:58:22,463 INFO spawned: 'nginx' with pid 26
+2017-10-12 07:58:22,467 INFO spawned: 'gunicorn' with pid 27
+2017-10-12 07:58:22,479 INFO spawned: 'task_queue' with pid 28
+2017-10-12 07:58:27,953 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 07:58:27,953 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2017-10-12 07:58:27,953 INFO success: task_queue entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)

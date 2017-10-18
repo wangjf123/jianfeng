@@ -1,0 +1,28 @@
+{% extends 'oj_base.html' %}
+{% block title %}
+    {{ problem.title }}
+{% endblock %}
+{% block body %}
+    <div class="container main">
+         <ul class="nav nav-tabs nav-tabs-google">
+         
+            <li role="presentation" >
+                <a href="/exercise_problem/{{ problem.id }}/">题目{{ problem.id}}</a>
+            </li>
+
+            <li role="presentation" >
+                <a href="/exercise_answerquestions/{{ problem.id }}/">问答</a>
+            <li role="presentation">
+                <a href="/problem/{{ problem.id }}/submissions/">我的提交</a>
+            </li>
+        </ul>
+        {% include "oj/problem/_problem_header.html" %}
+        <div>
+     <div>knowledgeBlock</div>
+
+        
+{% endblock %}
+{% block js_block %}
+    <script src="/static/js/app/oj/problem/problem.js?v=4340db"></script>
+    <script src="/static/js/app/oj/contest/contestCountdown.js?v=f6b8d1"></script>
+{% endblock %}

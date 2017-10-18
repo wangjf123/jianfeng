@@ -1,0 +1,32 @@
+<div ms-controller="contestProblemList" class="col-md-9">
+    <nav>
+        <ul class="pager">
+            <li class="previous" ms-click="goBack2()"><a href="javascript:void(0)">
+                <span aria-hidden="true">&larr;</span> 返回</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>学生列表</h1>
+    <h4>作业{{作业id}}</h4>
+   
+    <table class="table table-striped">
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>通过率</th>
+            <th></th>
+            <td></td>
+        </tr>
+        <tr ms-repeat="problemList">
+            <td>{{ 学生id}}</td>
+            <td>{{参与的答题者}}</td>
+            <td>{{通过率}}</td>
+            <td >
+                <button class="btn-sm btn-info" ms-click="showAnswerPage(el.id)">本次答题详情</button>
+                <button class="btn-sm btn-info" ms-click="showHistoricAnswerPage(el.id)">历史答题详情</button>
+                
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="/static/js/app/admin/contest/contestProblemList.js?v=a40311"></script>
